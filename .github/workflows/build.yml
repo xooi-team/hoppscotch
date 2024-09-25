@@ -18,7 +18,7 @@ jobs:
         service: [hoppscotch]
         include:
           - service: hoppscotch
-            runner: xooi-meet
+            runner: nlg-ubuntu-2
             platforms: |
                 linux/amd64
                 linux/arm64
