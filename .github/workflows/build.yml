@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.runner }}
     strategy:
       matrix:
-        service: [login-api, excel-api, main-api]
+        service: [hoppscotch]
         include:
           - service: hoppscotch
             runner: xooi-meet
